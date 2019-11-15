@@ -8,12 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		832EA10F237F5C1600FA1A45 /* SubFrameworks.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EA10D237F5C1600FA1A45 /* SubFrameworks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832EA117237F5C4500FA1A45 /* SubA.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EA115237F5C4500FA1A45 /* SubA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832EA118237F5C4500FA1A45 /* SubA.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA116237F5C4500FA1A45 /* SubA.m */; };
+		832EA11B237F5C5200FA1A45 /* SubB.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EA119237F5C5200FA1A45 /* SubB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832EA11C237F5C5200FA1A45 /* SubB.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA11A237F5C5200FA1A45 /* SubB.m */; };
+		832EA11F237F5C5E00FA1A45 /* SubC.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EA11D237F5C5E00FA1A45 /* SubC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832EA120237F5C5E00FA1A45 /* SubC.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA11E237F5C5E00FA1A45 /* SubC.m */; };
+		832EA12A237F5CA600FA1A45 /* MainFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EA128237F5CA600FA1A45 /* MainFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832EA130237F5CB500FA1A45 /* MainA.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EA12E237F5CB500FA1A45 /* MainA.h */; };
+		832EA131237F5CB500FA1A45 /* MainA.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA12F237F5CB500FA1A45 /* MainA.m */; };
+		832EA134237F5CBD00FA1A45 /* MainB.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EA132237F5CBD00FA1A45 /* MainB.h */; };
+		832EA135237F5CBD00FA1A45 /* MainB.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA133237F5CBD00FA1A45 /* MainB.m */; };
+		832EA138237F5CC700FA1A45 /* MainC.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EA136237F5CC700FA1A45 /* MainC.h */; };
+		832EA139237F5CC700FA1A45 /* MainC.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA137237F5CC700FA1A45 /* MainC.m */; };
+		832EA13B237F5CD500FA1A45 /* SubFrameworks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832EA10A237F5C1600FA1A45 /* SubFrameworks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		832EA10A237F5C1600FA1A45 /* SubFrameworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SubFrameworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		832EA10D237F5C1600FA1A45 /* SubFrameworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubFrameworks.h; sourceTree = "<group>"; };
 		832EA10E237F5C1600FA1A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832EA115237F5C4500FA1A45 /* SubA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubA.h; sourceTree = "<group>"; };
+		832EA116237F5C4500FA1A45 /* SubA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubA.m; sourceTree = "<group>"; };
+		832EA119237F5C5200FA1A45 /* SubB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubB.h; sourceTree = "<group>"; };
+		832EA11A237F5C5200FA1A45 /* SubB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubB.m; sourceTree = "<group>"; };
+		832EA11D237F5C5E00FA1A45 /* SubC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubC.h; sourceTree = "<group>"; };
+		832EA11E237F5C5E00FA1A45 /* SubC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubC.m; sourceTree = "<group>"; };
+		832EA126237F5CA600FA1A45 /* MainFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MainFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		832EA128237F5CA600FA1A45 /* MainFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainFramework.h; sourceTree = "<group>"; };
+		832EA129237F5CA600FA1A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832EA12E237F5CB500FA1A45 /* MainA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainA.h; sourceTree = "<group>"; };
+		832EA12F237F5CB500FA1A45 /* MainA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainA.m; sourceTree = "<group>"; };
+		832EA132237F5CBD00FA1A45 /* MainB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainB.h; sourceTree = "<group>"; };
+		832EA133237F5CBD00FA1A45 /* MainB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainB.m; sourceTree = "<group>"; };
+		832EA136237F5CC700FA1A45 /* MainC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainC.h; sourceTree = "<group>"; };
+		832EA137237F5CC700FA1A45 /* MainC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +53,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		832EA123237F5CA600FA1A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832EA13B237F5CD500FA1A45 /* SubFrameworks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				832EA10C237F5C1600FA1A45 /* SubFrameworks */,
+				832EA127237F5CA600FA1A45 /* MainFramework */,
 				832EA10B237F5C1600FA1A45 /* Products */,
+				832EA13A237F5CD500FA1A45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				832EA10A237F5C1600FA1A45 /* SubFrameworks.framework */,
+				832EA126237F5CA600FA1A45 /* MainFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +88,36 @@
 			children = (
 				832EA10D237F5C1600FA1A45 /* SubFrameworks.h */,
 				832EA10E237F5C1600FA1A45 /* Info.plist */,
+				832EA115237F5C4500FA1A45 /* SubA.h */,
+				832EA116237F5C4500FA1A45 /* SubA.m */,
+				832EA119237F5C5200FA1A45 /* SubB.h */,
+				832EA11A237F5C5200FA1A45 /* SubB.m */,
+				832EA11D237F5C5E00FA1A45 /* SubC.h */,
+				832EA11E237F5C5E00FA1A45 /* SubC.m */,
 			);
 			path = SubFrameworks;
+			sourceTree = "<group>";
+		};
+		832EA127237F5CA600FA1A45 /* MainFramework */ = {
+			isa = PBXGroup;
+			children = (
+				832EA128237F5CA600FA1A45 /* MainFramework.h */,
+				832EA129237F5CA600FA1A45 /* Info.plist */,
+				832EA12E237F5CB500FA1A45 /* MainA.h */,
+				832EA12F237F5CB500FA1A45 /* MainA.m */,
+				832EA132237F5CBD00FA1A45 /* MainB.h */,
+				832EA133237F5CBD00FA1A45 /* MainB.m */,
+				832EA136237F5CC700FA1A45 /* MainC.h */,
+				832EA137237F5CC700FA1A45 /* MainC.m */,
+			);
+			path = MainFramework;
+			sourceTree = "<group>";
+		};
+		832EA13A237F5CD500FA1A45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +127,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832EA11B237F5C5200FA1A45 /* SubB.h in Headers */,
+				832EA11F237F5C5E00FA1A45 /* SubC.h in Headers */,
 				832EA10F237F5C1600FA1A45 /* SubFrameworks.h in Headers */,
+				832EA117237F5C4500FA1A45 /* SubA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832EA121237F5CA600FA1A45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832EA134237F5CBD00FA1A45 /* MainB.h in Headers */,
+				832EA138237F5CC700FA1A45 /* MainC.h in Headers */,
+				832EA12A237F5CA600FA1A45 /* MainFramework.h in Headers */,
+				832EA130237F5CB500FA1A45 /* MainA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +166,24 @@
 			productReference = 832EA10A237F5C1600FA1A45 /* SubFrameworks.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		832EA125237F5CA600FA1A45 /* MainFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 832EA12B237F5CA600FA1A45 /* Build configuration list for PBXNativeTarget "MainFramework" */;
+			buildPhases = (
+				832EA121237F5CA600FA1A45 /* Headers */,
+				832EA122237F5CA600FA1A45 /* Sources */,
+				832EA123237F5CA600FA1A45 /* Frameworks */,
+				832EA124237F5CA600FA1A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MainFramework;
+			productName = MainFramework;
+			productReference = 832EA126237F5CA600FA1A45 /* MainFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +194,9 @@
 				ORGANIZATIONNAME = "Christopher Liscio";
 				TargetAttributes = {
 					832EA109237F5C1600FA1A45 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					832EA125237F5CA600FA1A45 = {
 						CreatedOnToolsVersion = 11.2;
 					};
 				};
@@ -112,12 +215,20 @@
 			projectRoot = "";
 			targets = (
 				832EA109237F5C1600FA1A45 /* SubFrameworks */,
+				832EA125237F5CA600FA1A45 /* MainFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		832EA108237F5C1600FA1A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832EA124237F5CA600FA1A45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,6 +242,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832EA120237F5C5E00FA1A45 /* SubC.m in Sources */,
+				832EA118237F5C4500FA1A45 /* SubA.m in Sources */,
+				832EA11C237F5C5200FA1A45 /* SubB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832EA122237F5CA600FA1A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832EA139237F5CC700FA1A45 /* MainC.m in Sources */,
+				832EA131237F5CB500FA1A45 /* MainA.m in Sources */,
+				832EA135237F5CBD00FA1A45 /* MainB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +316,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-Rmodule-build";
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -246,6 +371,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "-Rmodule-build";
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -298,6 +424,52 @@
 			};
 			name = Release;
 		};
+		832EA12C237F5CA600FA1A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZHH888KERZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MainFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.liscio.MainFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		832EA12D237F5CA600FA1A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZHH888KERZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MainFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.liscio.MainFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -315,6 +487,15 @@
 			buildConfigurations = (
 				832EA113237F5C1600FA1A45 /* Debug */,
 				832EA114237F5C1600FA1A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		832EA12B237F5CA600FA1A45 /* Build configuration list for PBXNativeTarget "MainFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832EA12C237F5CA600FA1A45 /* Debug */,
+				832EA12D237F5CA600FA1A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
