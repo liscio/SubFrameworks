@@ -4,6 +4,12 @@
 
 Yeah, maybe not.
 
+When I build my app, Xcode appears to stall out completely (dropping from full core usage down to 10-20% CPU) during the Objective-C build phases.
+
+In contrast, my *massive* Swift targets will happily peg my machine with *all* the cores/threads getting utilized. Swift doesn't get tripped up by this bug at all.
+
+## Background
+
 This project demonstrates a horrible bug in the Xcode 11 build system (which may be happening somewhere as deep as LLVM/clang).
 
 The bug manifested for me like this:
@@ -13,7 +19,9 @@ The bug manifested for me like this:
 
 After some back & forth with Apple's engineers, I learned to turn on `clang`'s `-Rmodule-build` flag to see what's going on behind the scenes. It turns out that&mdash;for every Objective-C file that is built&mdash;framework modules are being re-built unnecessarily.
 
-So, how does this project reproduce the issue? Try this:
+## Instructions
+
+Download this Xcode project, and do the following: 
 
 1. Choose the MainFramework target
 2. Build the product. Everything will seem fine, and you'll see warnings in the output that indicate all the dependency modules are built once.
@@ -26,5 +34,10 @@ Crazy, right?!
 
 Imagine you have a number of private frameworks that you build, and there are inter-dependencies between them, _plus_ your main app target depends on those frameworks. If you have a lot of source files in your targets, this slow-down blows up a lot!!
 
-So, why add the dumb comment at the top? None of my *massive* Swift targets are affected by this issue. They will happily build with *all* the cores/threads on my machines, and don't get tripped up by this crap.
+For any Apple folks that might be following along, this specific issue is tracked by FB7046188.
 
+What's especially frustrating is that I've been experiencing _terrible build performance_ since April 2018. See also FB5715747, and FB5642600.
+
+## Affected Systems
+
+I have only been able to test this on my iMac Pro, and a 2016 MacBook Pro. Both machines have experienced this bug on Mojave _and_ Catalina.
