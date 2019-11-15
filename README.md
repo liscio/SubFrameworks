@@ -8,7 +8,7 @@ This project demonstrates a horrible bug in the Xcode 11 build system (which may
 
 The bug manifested for me like this:
 
-1. Starting with a clean `DerivedData` folder, I can build my app, [Capo](https://supermegaultragroovy.com/products/Capo) in about 60 seconds, flat.
+1. Starting with a clean `DerivedData` folder, I can build my app, [Capo](https://supermegaultragroovy.com/products/capo) in about 60 seconds, flat.
 2. Once I clean the build folder using command-shift-K, *all subsequent builds* will take anywhere from *180s* to *500s* (in the very worst case, which I've not seen for a while now.)
 
 After some back & forth with Apple's engineers, I learned to turn on `clang`'s `-Rmodule-build` flag to see what's going on behind the scenes. It turns out that&mdash;for every Objective-C file that is built&mdash;framework modules are being re-built unnecessarily.
