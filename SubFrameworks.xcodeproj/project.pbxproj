@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83060EEB23807D7000FDF0AD /* MainD.h in Headers */ = {isa = PBXBuildFile; fileRef = 83060EE923807D7000FDF0AD /* MainD.h */; };
+		83060EEC23807D7000FDF0AD /* MainD.m in Sources */ = {isa = PBXBuildFile; fileRef = 83060EEA23807D7000FDF0AD /* MainD.m */; };
+		83060EEF23807D7A00FDF0AD /* MainE.h in Headers */ = {isa = PBXBuildFile; fileRef = 83060EED23807D7A00FDF0AD /* MainE.h */; };
+		83060EF023807D7A00FDF0AD /* MainE.m in Sources */ = {isa = PBXBuildFile; fileRef = 83060EEE23807D7A00FDF0AD /* MainE.m */; };
+		83060EF323807D8500FDF0AD /* MainF.h in Headers */ = {isa = PBXBuildFile; fileRef = 83060EF123807D8500FDF0AD /* MainF.h */; };
+		83060EF423807D8500FDF0AD /* MainF.m in Sources */ = {isa = PBXBuildFile; fileRef = 83060EF223807D8500FDF0AD /* MainF.m */; };
+		83060EF723807D8E00FDF0AD /* MainG.h in Headers */ = {isa = PBXBuildFile; fileRef = 83060EF523807D8E00FDF0AD /* MainG.h */; };
+		83060EF823807D8E00FDF0AD /* MainG.m in Sources */ = {isa = PBXBuildFile; fileRef = 83060EF623807D8E00FDF0AD /* MainG.m */; };
 		832EA10F237F5C1600FA1A45 /* SubFrameworks.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EA10D237F5C1600FA1A45 /* SubFrameworks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		832EA117237F5C4500FA1A45 /* SubA.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EA115237F5C4500FA1A45 /* SubA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		832EA118237F5C4500FA1A45 /* SubA.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EA116237F5C4500FA1A45 /* SubA.m */; };
@@ -25,6 +33,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83060EE923807D7000FDF0AD /* MainD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainD.h; sourceTree = "<group>"; };
+		83060EEA23807D7000FDF0AD /* MainD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainD.m; sourceTree = "<group>"; };
+		83060EED23807D7A00FDF0AD /* MainE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainE.h; sourceTree = "<group>"; };
+		83060EEE23807D7A00FDF0AD /* MainE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainE.m; sourceTree = "<group>"; };
+		83060EF123807D8500FDF0AD /* MainF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainF.h; sourceTree = "<group>"; };
+		83060EF223807D8500FDF0AD /* MainF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainF.m; sourceTree = "<group>"; };
+		83060EF523807D8E00FDF0AD /* MainG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainG.h; sourceTree = "<group>"; };
+		83060EF623807D8E00FDF0AD /* MainG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainG.m; sourceTree = "<group>"; };
 		832EA10A237F5C1600FA1A45 /* SubFrameworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SubFrameworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		832EA10D237F5C1600FA1A45 /* SubFrameworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubFrameworks.h; sourceTree = "<group>"; };
 		832EA10E237F5C1600FA1A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +125,14 @@
 				832EA133237F5CBD00FA1A45 /* MainB.m */,
 				832EA136237F5CC700FA1A45 /* MainC.h */,
 				832EA137237F5CC700FA1A45 /* MainC.m */,
+				83060EE923807D7000FDF0AD /* MainD.h */,
+				83060EEA23807D7000FDF0AD /* MainD.m */,
+				83060EED23807D7A00FDF0AD /* MainE.h */,
+				83060EEE23807D7A00FDF0AD /* MainE.m */,
+				83060EF123807D8500FDF0AD /* MainF.h */,
+				83060EF223807D8500FDF0AD /* MainF.m */,
+				83060EF523807D8E00FDF0AD /* MainG.h */,
+				83060EF623807D8E00FDF0AD /* MainG.m */,
 			);
 			path = MainFramework;
 			sourceTree = "<group>";
@@ -138,9 +162,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83060EEB23807D7000FDF0AD /* MainD.h in Headers */,
+				83060EF723807D8E00FDF0AD /* MainG.h in Headers */,
 				832EA134237F5CBD00FA1A45 /* MainB.h in Headers */,
 				832EA138237F5CC700FA1A45 /* MainC.h in Headers */,
+				83060EEF23807D7A00FDF0AD /* MainE.h in Headers */,
 				832EA12A237F5CA600FA1A45 /* MainFramework.h in Headers */,
+				83060EF323807D8500FDF0AD /* MainF.h in Headers */,
 				832EA130237F5CB500FA1A45 /* MainA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				832EA139237F5CC700FA1A45 /* MainC.m in Sources */,
+				83060EF023807D7A00FDF0AD /* MainE.m in Sources */,
 				832EA131237F5CB500FA1A45 /* MainA.m in Sources */,
+				83060EF423807D8500FDF0AD /* MainF.m in Sources */,
+				83060EF823807D8E00FDF0AD /* MainG.m in Sources */,
 				832EA135237F5CBD00FA1A45 /* MainB.m in Sources */,
+				83060EEC23807D7000FDF0AD /* MainD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,10 +413,10 @@
 		832EA113237F5C1600FA1A45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZHH888KERZ;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -397,6 +429,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.liscio.SubFrameworks;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -404,10 +437,10 @@
 		832EA114237F5C1600FA1A45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZHH888KERZ;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -420,6 +453,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.liscio.SubFrameworks;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -427,10 +461,10 @@
 		832EA12C237F5CA600FA1A45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZHH888KERZ;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -443,6 +477,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.liscio.MainFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -450,10 +485,10 @@
 		832EA12D237F5CA600FA1A45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = ZHH888KERZ;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -466,6 +501,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.liscio.MainFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
